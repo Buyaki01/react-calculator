@@ -25,3 +25,45 @@ code {
     'Courier New',
     monospace;
 }
+
+.inputBtn {
+  margin-top: 5px;
+  background-color: #858693;
+  width: 35%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.allItems {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-container {
+  width: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.addColSpan {
+  grid-column: span 2;
+}
+
+.grid-item {
+  background-color: #e0e0e0;
+  border: 1px solid gray;
+  padding: 20px;
+
+  /* font-size: 30px; */
+  text-align: center;
+}
+
+.operations {
+  background-color: #d88138;
+}
