@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# react-calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+> It has the design of the calculator to perform basic math operations.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Create React App(CRA)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Author 1
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👤 **Ritta Buyaki**
+- Github: [@Buyaki01](https://github.com/Buyaki01)
+- Twitter: [ @BuyakiRitta](https://twitter.com/BuyakiRitta)
+- Linkedin: [Ritta Buyaki](https://www.linkedin.com/in/ritta-buyaki-b12904128/)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites:
 
-### `npm run build`
+- Web browser
+- Code Editor
+- Live Server Extension
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cloning the repo to your local system (If you already have git, installed in your system):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open your terminal or command line
+- Run "git clone [Paste this link](https://github.com/Buyaki01/react-calculator)"
+- Open the folder with your code editor
+- Now You can edit the code and check the changes in the browser using Live Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Check linter errors:
 
-### `npm run eject`
+- Install npm
+- Install: npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
+- Then run: npx eslint .
+- Install: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+- For css run: npx stylelint "**/*.{css,scss}"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start by:
 
-## Learn More
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](https://github.com/Buyaki01/react-calculator/issues), contribute to the Project by creating an issue.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a ⭐️ if you like this project!
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- Project originally taken from The Odin Project
+- Project inspired by Microverse Program
+- Thanks for this Website Design "RITTA SWETA"
