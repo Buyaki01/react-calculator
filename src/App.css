@@ -39,3 +39,8 @@
 .operations {
   background-color: #d88138;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
