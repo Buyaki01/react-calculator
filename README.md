@@ -22,7 +22,7 @@ Go to your terminal, navigate to your working directory and run
 
 After that navigate to the newly created folder
 
-`cd math-magicians`
+`cd react-calculator`
 
 You now have access to the files.
 To install necessary dependencies run
