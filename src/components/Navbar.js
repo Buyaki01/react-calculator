@@ -21,11 +21,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navBar">
+    <nav className="navBarSec">
       <ul className="navBarLinks">
         {links.map((link) => (
-          <li key={link.id} className="listItem">
-            <NavLink to={link.path} activeClassName="active-link" exact>
+          <li key={link.id}>
+            <NavLink to={link.path} className="listItem">
               {link.text}
             </NavLink>
           </li>

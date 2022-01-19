@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Quote = () => (
-  <div>
-    <div className="heading">
+  <div className="quotesSec">
+    <div className="quotesHeading">
       <h1>Math Magicians</h1>
     </div>
     <div>

@@ -20,7 +20,7 @@ function Calculator() {
   const { total, next } = data;
   return (
     <>
-      <div className="heading">
+      <div className="calcHeadingSec">
         <h1>Math Magicians</h1>
       </div>
       <div className="calculatorSec">
