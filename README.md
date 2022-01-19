@@ -9,12 +9,6 @@
 - React
 - Css
 
-## Prerequisites:
-
-- React
-- Git
-- Node
-
 ## Installation
 Go to your terminal, navigate to your working directory and run
 
@@ -22,7 +16,7 @@ Go to your terminal, navigate to your working directory and run
 
 After that navigate to the newly created folder
 
-`cd math-magicians`
+`cd react-calculator`
 
 You now have access to the files.
 To install necessary dependencies run
@@ -40,7 +34,7 @@ You should now have the project running locally on a dev server.
 - Run: npx eslint .
 - For css run: npx stylelint "**/*.{css,scss}"
 
-## Author 1
+## Author
 
 👤 **Ritta Buyaki**
 - Github: [@Buyaki01](https://github.com/Buyaki01)

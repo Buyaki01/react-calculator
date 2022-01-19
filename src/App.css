@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(232, 233, 237);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.container {
+  /* border: 1px solid lawngreen; */
+  margin-left: 40px;
+}
+
+.homePage {
+  margin-top: 40px;
+}
+
+.homePageTitle {
+  margin-top: 40px;
+}
+
+.homePageBody {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.paragraphs {
+  margin-bottom: 20px;
+}
+
+/* .navBarSec {
+  margin-right: 20px;
+} */
+
+.navBarLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding: 20px;
+  background-color: lawngreen;
+}
+
+.listItem {
+  border-right: 2px solid gray;
+  padding: 15px;
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+
+.listItem:last-child {
+  border-right: none;
+}
+
+.inputBtn {
+  margin-top: 5px;
+  background-color: rgb(155, 152, 150);
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.calculatorSec {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.calcHeadingSec {
+  margin-left: 40px;
+}
+
+.firstColumn {
+  color: rgb(36, 41, 47);
+  margin-left: 60px;
+}
+
+.allItems {
+  padding: 40px;
+  margin-right: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.addColSpan {
+  grid-column: span 2;
+}
+
+.grid-item {
+  background-color: #e0e0e0;
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.operations {
+  background-color: lawngreen;
+}
+
+.quotesHeading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.quotes {
+  border-top: 2px solid rgb(206, 199, 199);
+  border-bottom: 2px solid rgb(206, 199, 199);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
