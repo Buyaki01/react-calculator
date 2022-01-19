@@ -37,7 +37,7 @@
 .navBarLinks {
   list-style-type: none;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 0;
   padding: 20px;
   background-color: lawngreen;
@@ -59,7 +59,7 @@
   background-color: rgb(155, 152, 150);
   height: 50px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
