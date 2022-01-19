@@ -4,6 +4,12 @@
 
 > It has the design of the calculator to perform basic math operations.
 
+## Live Demo
+[Deployed on Netlify](https://amazing-lichterman-9c7adc.netlify.app/)
+
+## Live Demo
+[Deployed on Heroku](https://react-calculator-quotes.herokuapp.com/)
+
 ## Built With
 
 - React
