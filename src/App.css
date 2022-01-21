@@ -9,7 +9,6 @@
 }
 
 .container {
-  /* border: 1px solid lawngreen; */
   margin-left: 40px;
 }
 
@@ -23,16 +22,13 @@
 
 .homePageBody {
   margin-top: 40px;
+  margin-right: 20px;
   text-align: left;
 }
 
 .paragraphs {
   margin-bottom: 20px;
 }
-
-/* .navBarSec {
-  margin-right: 20px;
-} */
 
 .navBarLinks {
   list-style-type: none;
