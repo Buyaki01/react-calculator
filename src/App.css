@@ -60,7 +60,6 @@
 }
 
 .calculatorSec {
-  margin: 30px;
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -71,7 +70,8 @@
 
 .firstColumn {
   color: rgb(36, 41, 47);
-  margin-left: 60px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 
 .allItems {
