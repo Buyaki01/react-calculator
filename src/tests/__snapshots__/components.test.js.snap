@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UI of the webpage Displays the Calculator page 1`] = `
+Array [
+  <div
+    className="calcHeadingSec"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </div>,
+  <div
+    className="calculatorSec"
+  >
+    <div
+      className="firstColumn"
+    >
+      <h3>
+         Lets do some math! 
+      </h3>
+    </div>
+    <div
+      className="allItems"
+    >
+      <div
+        className="inputBtn"
+      >
+        0
+      </div>
+      <div
+        className="grid-container"
+      >
+        <button
+          className="grid-item"
+          name="AC"
+          onClick={[Function]}
+          type="button"
+        >
+           AC 
+        </button>
+        <button
+          className="grid-item"
+          name="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+           +/- 
+        </button>
+        <button
+          className="grid-item"
+          name="%"
+          onClick={[Function]}
+          type="button"
+        >
+           % 
+        </button>
+        <button
+          className="grid-item operations"
+          name="÷"
+          onClick={[Function]}
+          type="button"
+        >
+           ÷ 
+        </button>
+        <button
+          className="grid-item"
+          name="7"
+          onClick={[Function]}
+          type="button"
+        >
+           7 
+        </button>
+        <button
+          className="grid-item"
+          name="8"
+          onClick={[Function]}
+          type="button"
+        >
+           8 
+        </button>
+        <button
+          className="grid-item"
+          name="9"
+          onClick={[Function]}
+          type="button"
+        >
+           9 
+        </button>
+        <button
+          className="grid-item operations"
+          name="x"
+          onClick={[Function]}
+          type="button"
+        >
+           x 
+        </button>
+        <button
+          className="grid-item"
+          name="4"
+          onClick={[Function]}
+          type="button"
+        >
+           4 
+        </button>
+        <button
+          className="grid-item"
+          name="5"
+          onClick={[Function]}
+          type="button"
+        >
+           5 
+        </button>
+        <button
+          className="grid-item"
+          name="6"
+          onClick={[Function]}
+          type="button"
+        >
+           6 
+        </button>
+        <button
+          className="grid-item operations"
+          name="-"
+          onClick={[Function]}
+          type="button"
+        >
+           - 
+        </button>
+        <button
+          className="grid-item"
+          name="1"
+          onClick={[Function]}
+          type="button"
+        >
+           1 
+        </button>
+        <button
+          className="grid-item"
+          name="2"
+          onClick={[Function]}
+          type="button"
+        >
+           2 
+        </button>
+        <button
+          className="grid-item"
+          name="3"
+          onClick={[Function]}
+          type="button"
+        >
+           3 
+        </button>
+        <button
+          className="grid-item operations"
+          name="+"
+          onClick={[Function]}
+          type="button"
+        >
+           + 
+        </button>
+        <button
+          className="grid-item addColSpan"
+          name="0"
+          onClick={[Function]}
+          type="button"
+        >
+           0 
+        </button>
+        <button
+          className="grid-item"
+          name="."
+          onClick={[Function]}
+          type="button"
+        >
+           . 
+        </button>
+        <button
+          className="grid-item operations"
+          name="="
+          onClick={[Function]}
+          type="button"
+        >
+           = 
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Test UI of the webpage Displays the Homepage 1`] = `
+<DocumentFragment>
+  <nav
+    class="navBarSec"
+  >
+    <ul
+      class="navBarLinks"
+    >
+      <li>
+        <a
+          aria-current="page"
+          class="listItem active"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          class="listItem"
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          class="listItem"
+          href="/quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    class="container"
+  >
+    <div>
+      <h1>
+        Math Magicians
+      </h1>
+    </div>
+    <div
+      class="homePage"
+    >
+      <div
+        class="homePageTitle"
+      >
+        <h3>
+          Welcome to our page! 
+        </h3>
+      </div>
+      <div
+        class="homePageBody"
+      >
+        <p
+          class="paragraphs"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <p
+          class="paragraphs"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test UI of the webpage Displays the details page 1`] = `
+<div
+  className="quotesSec"
+>
+  <div
+    className="quotesHeading"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </div>
+  <div>
+    <h3
+      className="quotes"
+    >
+      Mathematics is the art of giving the same name to different things. - Henri Poincare
+    </h3>
+  </div>
+</div>
+`;
