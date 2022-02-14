@@ -1,10 +1,13 @@
-import React from 'react';
-import { useDispatch } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { getQuoteFromApi } from '../../redux/quotes/quote';
 
 const Quote = () => {
   const dispatch = useDispatch();
-  dispatch(getQuoteFromApi);
+  useEffect(() => {
+    dispatch(getQuoteFromApi());
+  }, []);
+  const dataFromApi = useSelector((state) => state.quoteReducer);
   return (
     <div className="quotesSec">
       <div className="quotesHeading">
@@ -12,7 +15,9 @@ const Quote = () => {
       </div>
       <div>
         <h3 className="quotes">
-          Mathematics is the art of giving the same name to different things. - Henri Poincare
+          {dataFromApi[1]}
+          -
+          {dataFromApi[0]}
         </h3>
       </div>
     </div>

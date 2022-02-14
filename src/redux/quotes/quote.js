@@ -12,8 +12,8 @@ export const getQuote = (payload) => ({
 export const getQuoteFromApi = () => async (dispatch) => {
   const quotesFromApi = await Axios.get('https://random-math-quote-api.herokuapp.com/');
   const quotes = quotesFromApi.data;
-  console.log(quotes);
-  dispatch(getQuote(quotes));
+  const quotesArray = [quotes.author, quotes.quote];
+  dispatch(getQuote(quotesArray));
 };
 
 const reducer = (state = initialState, action) => {
